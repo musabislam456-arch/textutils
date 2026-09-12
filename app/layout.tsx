@@ -28,12 +28,13 @@ export const metadata: Metadata = {
   description: 'Clean, distraction-free text utilities, word counters, and writing guides for writers, students, and editors. Fast, client-side, and privacy-first.',
   keywords: ['word counter', 'character counter', 'case converter', 'diff checker', 'remove duplicate lines', 'find and replace', 'essay word count', 'student writing tools'],
   authors: [{ name: 'TextUtils Editorial' }],
-  metadataBase: new URL('https://textutils-suite.local'),
+  metadataBase: new URL('https://textutils.toolbay.site'),
   openGraph: {
     title: 'TextUtils — Distraction-Free Text Tools for Writers & Students',
     description: 'Clean, distraction-free text utilities, word counters, and writing guides for writers, students, and editors.',
     type: 'website',
     locale: 'en_US',
+    url: 'https://textutils.toolbay.site',
     siteName: 'TextUtils',
   },
   twitter: {
