@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { BLOG_POSTS } from '@/data/blog-posts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://textutils.app';
+  const baseUrl = 'https://textutils.toolbay.site';
 
   const staticPages = [
     '',
