@@ -42,6 +42,9 @@ export const metadata: Metadata = {
     title: 'TextUtils — Text Tools for Writers & Students',
     description: 'Word & character counting, case conversion, text diff comparisons, and duplicate line removal in a clean distraction-free workspace.',
   },
+  verification: {
+    google: '8dLMBNTBkGFQ3zq4GYwdQbjC1ciAalZ87g56dZR1mks',
+  },
 };
 
 export default function RootLayout({
