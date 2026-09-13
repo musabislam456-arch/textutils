@@ -36,12 +36,27 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://textutils.toolbay.site',
     siteName: 'TextUtils',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'TextUtils — Distraction-Free Text Tools for Writers & Students',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'TextUtils — Text Tools for Writers & Students',
     description: 'Word & character counting, case conversion, text diff comparisons, and duplicate line removal in a clean distraction-free workspace.',
+    images: ['/opengraph-image'],
   },
+  icons: {
+    icon: '/icon',
+    shortcut: '/icon',
+    apple: '/apple-icon',
+  },
+  manifest: '/manifest.webmanifest',
   verification: {
     google: '8dLMBNTBkGFQ3zq4GYwdQbjC1ciAalZ87g56dZR1mks',
   },
